@@ -1,17 +1,19 @@
 #include <Arduino.h>
 
+const int LED_Pin = 48; // 定义LED引脚
+
 void setup()
 {
-  Serial.begin(9600);
-  pinMode(LED_BUILTIN, OUTPUT);
+  Serial.begin(115200);
+  pinMode(LED_Pin, OUTPUT);
 }
 
 void loop()
 {
   Serial.write("H");
-  digitalWrite(LED_BUILTIN, HIGH);
+  digitalWrite(LED_Pin, HIGH);
   delay(1000);
   Serial.write("L");
-  digitalWrite(LED_BUILTIN, LOW);
+  digitalWrite(LED_Pin, LOW);
   delay(1000);
 }
