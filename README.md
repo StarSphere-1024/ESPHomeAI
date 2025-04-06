@@ -25,7 +25,7 @@ ESPHomeAI 是一款结合了 ESP32-S3 开发板、小智 AI 聊天机器人框�
 ### 服务端
 
 - [Home Assistant](https://www.home-assistant.io/)
-- [小智后端服务xiaozhi-esp32-server]<https://github.com/xinnan-tech/xiaozhi-esp32-server>
+- [小智后端服务xiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server)
 
 ## 开发进度
 
